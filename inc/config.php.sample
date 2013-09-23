@@ -1,0 +1,28 @@
+<?php
+
+/*
+ * Set your environment
+ */
+
+
+define('ENVIRONMENT',"default");
+
+/* Your Local Database Settings */
+
+$config['host']						['default'] = "";
+$config['user']						['default'] = "";
+$config['password']					['default'] = "";
+$config['database']					['default'] = "";
+
+/* Your desired Development settings */
+
+$config['email']					['default'] = "";
+$config['url']						['default'] = "";
+$config['useSSL']					['default'] = TRUE;
+
+/* Set Authorize Settings; if not using Authorize, just leave blank or do not set */
+
+$config['authorizeLogin']			['default'] = '';
+$config['authorizeTransactionKey']	['default'] = '';
+$config['authorizeEmail']			['default'] = '';
+
